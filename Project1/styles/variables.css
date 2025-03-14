@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+:root{
+
+    --co-white:#fff;
+    --co-black:#1B1A1A;
+    --co-light-beige:#ECE7E4 ;
+}
+=======
+:root{
+
+    --co-white:#fff;
+    --co-black:#1B1A1A;
+    --co-light-beige:#ECE7E4 ;
+    --co-gray:#645c55;
+    --co-gray-description:#403e3b;
+    --co-near-white:#F7F7F7;
+    
+}
+
+/* Media breakpoints: 992px, 768px, 576px 480px */
+>>>>>>> 51b25e4 (Message for changes)

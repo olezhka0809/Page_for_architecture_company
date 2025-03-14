@@ -1,0 +1,166 @@
+.our_clients_container {
+    height: 410px;
+    width: 100%;
+    background-color: var(--co-gray-description);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.our_clients_subcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 132px;
+    align-items: center;
+}
+
+.our_clients_subcontainer_content {
+    width: 460px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.our_clients_subcontainer_logos_pretitle {
+    color: var(--co-light-beige);
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.our_clients_subcontainer_logos_title {
+    color: var(--co-white);
+    text-align: left;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400;
+  
+}
+
+.our_clients_subcontainer_logos_description {
+    height: 72px;
+    width: 451px;
+    color: var(--co-light-beige);
+    text-align: left;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.our_clients_subcontainer_logos {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.set1_logo , .set2_logo{
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+
+
+}
+
+.comppany_logo_1 {
+    width: 128px;
+    height: 30px;
+
+}
+
+.comppany_logo_2{
+    width: 128px;
+    height: 78px;
+}
+
+.comppany_logo_3{
+    width: 128px;
+    height: 20px;
+}
+
+.comppany_logo_4{
+    width: 128px;
+    height: 36px;
+}
+
+
+@media (max-width: 991.98px) {
+    .our_clients_subcontainer {
+        flex-direction: column;
+        gap: 60px;
+        padding: 40px 20px;
+    }
+    
+    .our_clients_subcontainer_content {
+        width: 100%;
+        height: auto;
+    }
+    
+    .our_clients_subcontainer_logos_description {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .our_clients_container {
+        height: auto;
+        padding: 60px 0;
+    }
+    
+    .set1_logo, .set2_logo {
+        gap: 60px;
+    }
+    
+    .our_clients_subcontainer_logos {
+        gap: 60px;
+    }
+    
+    .our_clients_subcontainer_logos_title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .set1_logo, .set2_logo {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .comppany_logo_1, .comppany_logo_2, .comppany_logo_3, .comppany_logo_4 {
+        width: 100px;
+    }
+    
+    .our_clients_subcontainer_logos_title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .our_clients_subcontainer {
+        gap: 40px;
+    }
+    
+    .set1_logo, .set2_logo {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .our_clients_subcontainer_logos_pretitle {
+        font-size: 12px;
+    }
+    
+    .our_clients_subcontainer_logos_description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

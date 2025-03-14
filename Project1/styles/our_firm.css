@@ -1,0 +1,93 @@
+.our_firm {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.our_firm_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.our_firm_title {
+    width: 266px;
+    align-self: flex-start;
+}
+
+.our_firm_title_text {
+    color: var(--co-gray-description);
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.worker_opinion {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.worker_opinion_content {
+    color: var(--co-gray-description);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.argument {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.worker_profile {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.worker_img {
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.worker_description {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.name {
+    color: var(--co-black);
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    
+}
+
+.occupation {
+    color: var(--co-gray);
+    font-size: 14px;
+    font-weight: 400;
+    margin:0;
+    
+}
+
+@media (max-width: 768px) {
+    .our_firm_container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .our_firm_title, .worker_opinion {
+        width: 100%;
+    }
+}

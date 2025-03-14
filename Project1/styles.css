@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+@import url('styles/basic.css');
+@import url('styles/variables.css');
+@import url('styles/header.css');
+=======
+@import url('styles/basic.css');
+@import url('styles/variables.css');
+@import url('styles/header.css');
+@import url('styles/hero.css');
+@import url('styles/our_firm.css');
+@import url('styles/exemple_work1.css');
+@import url('styles/our_process.css');
+@import url('styles/exemple_work2.css');
+@import url('styles/our_clients.css');
+@import url('styles/exemple_work3.css');
+@import url('styles/featured_projects.css');
+@import url('styles/our_team.css');
+>>>>>>> 51b25e4 (Message for changes)
