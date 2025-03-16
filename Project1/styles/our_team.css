@@ -1,0 +1,247 @@
+.our_team_container{
+    background-color: var(--co-our-team);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.our_team_content{
+    width: 100%;
+    height: 593px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.our_team_content_workers {
+    width: 773.33px;
+    height: 392px;
+    display: flex;  
+    flex-direction: row;
+    gap: 115px;
+}
+
+
+.our_team_description {
+    width: 378.66px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.our_team_description_title {
+    color: var(--co-gray-description);
+    text-align: left;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+.our_team_description_subtitle {
+    width: 358px;
+    height: 72px;
+    color: var(--co-gray);
+    text-align: left;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+
+.our_team_description_button_this {
+    width: 126px;
+    height: 46px;
+    color: var(--co-white);
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    background-color: var(--co-gray);
+    border: none;
+    cursor: pointer;
+    border-radius: 14px;
+    margin-top: 30px;
+    transition: all 0.5s;
+    box-shadow: 0 8px 12px -8px rgba(0, 0, 0,.7);
+}
+
+.our_team_description_button_this{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.our_team_description_button_this:after{
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.our_team_description_button_this:hover{
+    padding-right: 20px;
+    padding-left:8px;
+    border: 1px solid var(--co-black);
+    background-color: var(--co-white);
+    color: var(--co-black);
+}
+
+.our_team_description_button_this:hover:after{
+    opacity: 1;
+    right: 10px;
+}
+
+.our_team_content_workers_set1 {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.our_team_content_workers_person {
+    width: 280px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_team_content_workers_person_img {
+    width: 84px;
+    height: 84px;
+
+}
+
+.our_team_content_workers_person_name {
+    color: var(--co-black);
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.our_team_content_workers_person_description{
+    width: 196px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 32px;
+}
+
+.our_team_content_workers_person_ocupation {
+    color: var(--co-gray);
+    text-align: left;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+
+}
+
+.our_team_content_workers_set2 {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+@media screen and (max-width: 1177px) {
+    .our_team_content {
+        width: 90%;
+        height: auto;
+        padding: 40px 0;
+    }
+    
+    .our_team_content_workers {
+        width: 60%;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .our_team_content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .our_team_description {
+        width: 80%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .our_team_description_title,
+    .our_team_description_subtitle {
+        text-align: center;
+    }
+    
+    .our_team_description_subtitle {
+        width: 100%;
+    }
+    
+    .our_team_content_workers {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our_team_content_workers {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .our_team_content_workers_set1,
+    .our_team_content_workers_set2 {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .our_team_description {
+        width: 90%;
+    }
+    
+    .our_team_content_workers_person {
+        width: 250px;
+    }
+    
+    .our_team_content_workers_person_description {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .our_team_content_workers_person {
+        width: 220px;
+    }
+    
+    .our_team_content_workers_person_img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .our_team_content_workers_person_name {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .our_team_content_workers_person_ocupation {
+        font-size: 12px;
+    }
+}
